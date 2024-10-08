@@ -1,0 +1,108 @@
+/* Html and Body */
+html {
+  background: url(imgs/physics-seamless-pattern-28820691.webp);
+  /* v makes internal links scroll rather than snaping to an element */
+  scroll-behavior: smooth;
+}
+body {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(253, 251, 241);
+  padding: 20px 50px;
+  border: 3px dashed black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* text and image base styling */
+img {
+  width: 200px;
+  opacity: 0.8;
+}
+hr {
+  margin: 20px 0px;
+}
+h1 {
+  font-variant: small-caps;
+}
+h2 {
+  text-decoration: underline;
+}
+h4 {
+  font-size: larger;
+}
+h2,
+h4 {
+  font-family: "Space Grotesk", sans-serif;
+}
+/* lists */
+ul {
+  text-align: left;
+}
+li {
+  margin: 7px;
+}
+a {
+  color: rgb(49, 52, 240);
+}
+/* Table styling */
+table {
+  width: 700px;
+  border-collapse: separate;
+}
+td:hover > img,
+#tab:hover > img {
+  opacity: 1;
+}
+td,
+#tab {
+  border: 2px solid rgba(0, 0, 0, 0.582);
+  padding: 9px 0px;
+}
+td:hover,
+#tab:hover {
+  border: 2px solid black;
+  transition: border 0.5s;
+}
+
+/* buttons and inputs */
+.calc {
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: lightgreen;
+  border: 2px solid rgb(65, 63, 63);
+}
+.calc:hover {
+  background-color: rgb(238, 247, 111);
+  transition: background-color 1s;
+  cursor: pointer;
+}
+input {
+  width: 60px;
+}
+input:hover {
+  border-color: black;
+}
+
+/* classes and ids */
+#sections {
+  font-size: larger;
+}
+#big4 {
+  width: 600px;
+}
+#section {
+  padding: 5px;
+  border: 2px dotted black;
+  border-radius: 15px;
+}
+.small {
+  font-size: x-small;
+}
+.subtitle {
+  border: 0px;
+}
+.subtitle:hover {
+  border: 0px;
+}

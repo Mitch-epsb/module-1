@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- meta data -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Physics 20 Formulas</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- link sets an image as the tab icon for the site -->
+    <link
+      rel="shortcut icon"
+      href="imgs/atoms_1630427598.webp"
+      type="image/x-icon"
+    />
+    <!-- links external fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Physics 20-1 Formula Sheet</h1>
+    <hr />
+    <div id="section">
+      <h2>Sections</h2>
+      <!-- Links that are internal to the document (not discussed in class) using ids -->
+      <ul>
+        <div id="sections">
+          <li><a href="#kinematics">Kinimatics</a></li>
+          <li><a href="#energy">Energy</a></li>
+        </div>
+      </ul>
+    </div>
+
+    <hr />
+    <!-- Kinematics section -->
+    <h2 id="kinematics">Kinematics</h2>
+    <table>
+      <tr>
+        <td class="subtitle"><h4>- Velocity -</h4></td>
+        <td class="subtitle"><h4>- Acceleration -</h4></td>
+      </tr>
+      <tr>
+        <!-- Velocity formula -->
+        <td>
+          <img src="imgs/velocity (1).svg" alt="v=d/t" />
+          <p>v = average velocity</p>
+          <p>Δ x = displacement</p>
+          <p>Δ t = change in time</p>
+          <p>
+            <input type="number" placeholder="v" /> =
+            <input type="number" placeholder="Δx" />
+            /
+            <input type="number" placeholder="Δt" />
+          </p>
+          <button class="calc">Calculate</button>
+        </td>
+        <!-- Accerleration formula -->
+        <td>
+          <img src="imgs/accerleration.png" alt="v=d/t" />
+          <p>a = average accerleration</p>
+          <p>Δv = change in velocity</p>
+          <p>Δt = change in time</p>
+          <p>
+            <input type="number" placeholder="a" /> =
+            <input type="number" placeholder="Δv" />
+            /
+            <input type="number" placeholder="Δt" />
+          </p>
+          <button class="calc">Calculate</button>
+        </td>
+      </tr>
+    </table>
+    <!-- The big 4 formulas -->
+
+    <h4>- The Main 4 Equations -</h4>
+    <div id="tab">
+      <img src="imgs/hqdefault.jpg" alt="" id="big4" />
+      <!-- List of Variables -->
+      <ul>
+        <li>x = displacement - <input type="number" placeholder="x" /></li>
+
+        <li>
+          v<span class="small">f</span> = velocity final -
+          <input type="number" placeholder="vf" />
+        </li>
+        <li>
+          v<span class="small">i</span> = velocity initial -
+          <input type="number" placeholder="vi" />
+        </li>
+        <li>
+          a = average accerleration -
+          <input type="number" placeholder="a" />
+        </li>
+        <li>t = time - <input type="number" placeholder="t" /></li>
+      </ul>
+      <button class="calc">Calculate</button>
+    </div>
+
+    <hr />
+
+    <!-- energy begin -->
+    <h2 id="energy">Energy</h2>
+    <h4>- Work & Power Formulas -</h4>
+    <table class="border">
+      <tr>
+        <!-- work and power sections -->
+      </tr>
+      <tr>
+        <td><img src="imgs/work 1.png" alt="" /></td>
+        <td><img src="imgs/work2.png" alt="" /></td>
+        <td><img src="imgs/power.png" alt="" /></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <!-- list of variables -->
+          <ul>
+            <li>W = Work - <input type="number" placeholder="W" /></li>
+            <li>F = Force - <input type="number" placeholder="F" /></li>
+            <li>d = Displacement - <input type="number" placeholder="d" /></li>
+            <li>E = Energy - <input type="number" placeholder="E" /></li>
+            <li>p = Power - <input type="number" placeholder="P" /></li>
+            <li>t = Time - <input type="number" placeholder="t" /></li>
+          </ul>
+          <button class="calc">Calculate</button>
+        </td>
+      </tr>
+    </table>
+    <!-- energy formulas -->
+    <h4>- Energy Formulas -</h4>
+    <table class="border">
+      <tr>
+        <td><img src="imgs/ek.png" alt="" /></td>
+        <td><img src="imgs/Ep.png" alt="" /></td>
+        <td><img src="imgs/Ep2.png" alt="" /></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <ul>
+            <li>
+              E<span class="small">k</span> = Energy Kinetic -
+              <input type="number" placeholder="Ek" />
+            </li>
+            <li>
+              E<span class="small">p</span> = Energy Potential -
+              <input type="number" placeholder="Ep" />
+            </li>
+            <!-- list of variables -->
+            <li>m = Mass - <input type="number" placeholder="m" /></li>
+            <li>g = Gravity - <input type="number" placeholder="g" /></li>
+            <li>h = Hieght - <input type="number" placeholder="h" /></li>
+            <li>v = Velocity - <input type="number" placeholder="v" /></li>
+            <li>
+              k = Spring Constant - <input type="number" placeholder="k" />
+            </li>
+            <li>x = Displacement - <input type="number" placeholder="x" /></li>
+          </ul>
+          <button class="calc">Calculate</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
